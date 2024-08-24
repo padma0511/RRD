@@ -1,0 +1,580 @@
+/* header start */
+body{
+
+  
+  
+    font-family: 'Univers', sans-serif;
+  
+}
+
+
+b{
+    font-size: px;
+    color: #18e1e1;
+}
+#navbar{
+     /* position: sticky; 
+    top: 0;
+
+    background:#ffffff;
+     /* z-index: 9;   */
+    
+  position: sticky ! important;
+  left: 0;
+  top: 0;
+  box-shadow: 0px 5px 8px rgba(0,0,0,.5);
+  
+}
+li{
+    padding: 5px;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid black;
+    transition: .1s;
+}
+
+
+.dropbtn {
+  
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #237CB8;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+  background-color: #2980b9;
+}
+
+.top-bg {
+  background: url("../images/Banner\ Image.png");
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+}
+.black-bg {
+  background: url("../images/background.png");
+  background-size:cover;
+  height:100vh;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: hidden;
+ 
+
+} 
+.black-bg div{
+  padding: 40px;
+  margin: auto;
+}
+.black-bg h1{
+  font-size: 40px;
+  font-weight:lighter;
+  color: #ffffff;
+
+  width: 46%;
+
+  
+
+
+}
+ .black-bg p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+   width: 78%;
+
+
+
+
+}  
+
+  @media(max-width:576px){
+  .top-bg {
+      background: url("../images/Banner\ Image.png");
+    display: none; 
+      overflow: hidden; 
+  }
+  .black-bg {
+      background: url('image/background.png');
+    display: none;
+       overflow: hidden;  
+  }  
+  .bg-img{
+    display: none !important;
+    overflow: hidden;
+  }
+  .bg-img{
+
+  }
+  
+  
+
+  
+  
+} 
+
+@media (min-width: 1029px) {
+  .res-bg p {
+      display: none; 
+  }
+  .res-bg h2{
+    display: none;
+  }
+}
+
+  
+
+@media (max-width: 576px) {
+  .res{
+    /* background: url("../images/background.png"); */
+    background: url("../images/Mobile-banner.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 100vh;
+   overflow: hidden;
+  }
+  
+  .res-bg{
+    
+   position: absolute;
+   z-index: 10;
+   
+   
+  }
+  .res-bg h2{
+    font-size: 32px;
+    margin-top: 30px;
+   color: #ffffff !important;
+
+  }
+  .res-bg p{
+    font-size: 20px;
+    margin-top: 20px;
+   color: #ffffff !important;
+
+  }
+
+ 
+    .black-b {
+      position: absolute;
+      background-color: black;
+      width: 100%;
+      height: 42%;
+      top: 0;
+      opacity: 0.5;
+      
+  }
+  .res-heading{
+    z-index: 10;
+  }
+  
+}
+
+
+
+
+/* second banner css */
+.second-banner{
+  margin-top: 20px;
+
+}
+.second-banner h2{
+  text-align: center !important;
+  font-weight: lighter !important;
+  
+}
+.second-banner2 h5{
+  color: #237CB8;
+  margin-top: 2px;
+}
+.second-banner2 {
+ 
+  margin: 30px;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+
+@media (max-width: 768px) {
+  .second-banner2 {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .second-banner2 {
+    margin-left: 20px;
+    margin-top: 90px;
+    
+  }
+}
+.second-banner2 button{
+  background-color: #237CB8;
+  padding: 12px ;
+  right:50px;
+  margin: 10px;
+ border: none;
+ border-radius: 3px ;
+}
+/* second banner end  */
+/* third banner */
+.third-banner {
+  text-align: center;
+
+}
+.third-banner h2{
+width: 800px;
+color: blue;
+}
+   
+
+
+
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  width: 100%;
+  margin: 10px auto; 
+  box-sizing: border-box; 
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-left: 40px;
+  width: 350px; 
+  height: 140px;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+  margin-bottom: 20px; 
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card p {
+  margin-top:70px;
+  color: #555;
+  padding-top: 5px;
+  text-align: left;
+  margin-bottom: none;
+ 
+}
+
+.card img {
+  width: 40px;
+  position: absolute; 
+  left: 40px; 
+  margin-top: 30px; 
+  
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%; 
+    margin: 10px;
+    
+    
+  }
+  .card p {
+   
+    color: #555;
+    margin-left: 18px;
+    margin-top: 65px;
+  }
+  .card img{
+    margin-left: 20px;
+  }
+  
+}
+
+
+
+.fourth-banner .dolor{
+  margin-top:50px;
+  font-weight: lighter !important;
+}
+
+.fourth-banner h2{
+  font-weight: lighter !important;
+}
+.fourth-banner .dolor h5  {
+  margin-top: 20px;
+}
+.fourth-banner button{
+  background-color: #237CB8;
+  padding: 12px ;
+  right:50px;
+  margin: 10px;
+ border: none;
+ border-radius: 3px ;
+
+}
+
+/* fifth banner start */
+
+.fifth-banner .dolor {
+  margin-top: 50px;
+  font-weight: lighter !important;
+}
+
+.fifth-banner h2 {
+  font-weight: lighter !important;
+}
+
+.fifth-banner .dolor h5 {
+  margin-top: 20px;
+}
+
+.fifth-banner .img-fluid {
+  margin: 10px;
+  top: 40px;
+}
+
+.fifth-banner button {
+  padding: 10px;
+  margin: 10px !important;
+  border: 1px solid #237CB8 !important;
+}
+
+
+@media (min-width: 1024px) {
+  .fifth-banner .dolor {
+    margin-top: 60px;
+  }
+
+  .fifth-banner h2 {
+    font-size: 1.5em;
+  }
+
+  .fifth-banner .img-fluid {
+    margin: 15px;
+    top: 50px;
+  }
+
+  .fifth-banner button {
+    padding: 12px;
+    margin: 12px !important;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .fifth-banner .dolor {
+    margin-top: 70px;
+  }
+
+  .fifth-banner h2 {
+    font-size: 1.75em;
+  }
+
+  .fifth-banner .img-fluid {
+    margin: 20px;
+    top: 60px;
+  }
+
+  .fifth-banner button {
+    padding: 14px;
+    margin: 14px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .fifth-banner .dolor {
+    margin-top: 80px;
+  }
+
+  .fifth-banner h2 {
+    font-size: 2em;
+  }
+
+  .fifth-banner .img-fluid {
+    margin: 25px;
+    top: 70px;
+  }
+
+  .fifth-banner button {
+    padding: 16px;
+    margin: 16px !important;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .fifth-banner .dolor {
+    margin-top: 30px;
+    font-size: 0.9em;
+  }
+
+  .fifth-banner h2 {
+    font-size: 1.2em;
+  }
+
+  .fifth-banner .dolor h5 {
+    margin-top: 10px;
+  }
+
+  .fifth-banner .img-fluid {
+    margin: 5px;
+    top: 20px;
+  }
+
+  .fifth-banner button {
+    padding: 8px;
+    margin: 8px !important;
+    font-size: 0.9em;
+  }
+}
+
+/* fifth banner end */
+/* sixth banner start  */
+.sixth-banner{
+  padding-top: 40px;
+  text-align: center;
+}
+.sixth-banner h2{
+  font-weight: lighter;
+}
+.sixth-banner img{
+  margin-top: 20px;
+}
+.sixth-banner p{
+  margin-top:5px;
+}
+
+/* seventh banner start */
+
+.seventh-banner {
+  background-color: rgb(46, 46, 46);
+  color: #ffffff;
+  padding-top: 15px;
+  margin-top: 10px;
+  margin-bottom: -20px !important;
+}
+
+.seventh-banner .para {
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+
+@media (min-width: 1024px) {
+  .seventh-banner {
+    padding-top: 20px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+  }
+
+  .seventh-banner .para {
+    line-height: 28px;
+    margin-top: 35px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .seventh-banner {
+    padding-top: 25px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+  }
+
+  .seventh-banner .para {
+    line-height: 30px;
+    margin-top: 40px;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .seventh-banner {
+    padding-top: 30px;
+    margin-top: 25px;
+    margin-bottom: -5px;
+  }
+
+  .seventh-banner .para {
+    line-height: 32px;
+    margin-top: 45px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .seventh-banner {
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-bottom: -25px;
+  }
+
+  .seventh-banner .para {
+    line-height: 22px;
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+}
+
+
+/* seventh banner end  */
+
+
+
